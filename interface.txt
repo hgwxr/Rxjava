@@ -1,0 +1,254 @@
+1、	某分类商品 /interface.php/goods/goodslist ：
+参数：count:每页数量
+		  fid：分类ID
+      page:分页数，新增加，默认1
+2、	十元专区：/interface.php/goods/ten
+参数：count:每页数量
+		  page:分页数,默认1
+3、	某商品购买记录：/interface.php/goods/buydetail
+参数：count:每页展示数量
+		 goods_id:商品ID
+	     period:期数
+		page:页数
+4、	最新揭晓：/interface.php/goods/published
+参数：count:每页数量
+		 page:页码，默认1
+5、	即将揭晓：/interface.php/goods/publishing
+参数：count:每页数量
+	 page:页码，默认1
+6、	最新揭晓详情：/interface.php/goods/publisheddetail
+参数：goods_id:商品ID
+      period:期数
+      id:用户ID（可选）
+		xm_id:有用户ID是需要此参数
+		signs:有用户ID需要此参数
+7、	即将揭晓详情：/interface.php/goods/publishingdetail
+参数：goods_id:商品ID
+      period:期数
+        id:用户ID（可选）
+		xm_id:有用户ID是需要此参数
+		signs:有用户ID需要此参数
+8、	全部晒单分享：/interface.php/goods/share
+参数：count:展示数量
+      page:页码（可选，默认为1）
+9、	注册接口：/interface.php/login/register
+参数：phonenumber：电话
+      password：密码
+verify：验证码
+first：是否为注册送红包来的，1是送红包
+10、添加购物车：/interface.php/flowcart/addflowcart
+   参数：signs:验证信息
+         xm_id:
+         id:用户ID
+         goods_id:商品ID（可以是多个商品用,隔开传输）
+         goods_addnum：商品数量（可选，默认为1）
+11、	改变购物车：/interface.php/flowcart/changeflowcart
+参数： id：用户ID
+       signs:验证信息
+       xm_id:登录ID
+       goods_data:改变购物车数量的json数据，{商品ID：商品数量}
+
+12、支付订单：/interface.php/flowcart/payorder （没有goods_id）
+参数：id:用户ID
+      signs:
+      xm_id:
+13、选择红包页面：/interface.php/flowcart/choiceredbag （没有goods_id）
+参数：id:用户ID
+      signs:
+      xm_id:
+		  price:红包价
+14、立即结算：/interface.php/flowcart/getprepayid
+ 参数：id:用户ID
+       xm_id:
+       signs:
+       is_wechat:是否微信支付
+       is_balance:是否余额支付
+       user_balance:使用余额
+       pay_money:支付金额
+       red_id:红包ID
+       is_union:是否银联支付
+       is_jdpay:是否京东支付
+       is_iapppay:是否爱贝支付宝支付
+       is_ios:是否是ios端支付
+       is_alipay_new_1:是否2元支付宝支付
+       is_alipay_new_2:是否5元支付宝支付
+15、支付结果：/interface.php/flowcart/payresult        ---------
+  参数: agent_bill_id:订单号
+16、支付完成返回给APP数据：/interface.php/flowcart/giveapp   ------
+ 参数：tn:银联订单号
+       order_num:订单号
+       type:类型，0充值，1购买
+17、个人中心全部夺宝记录：/interface.php/mine/allrecords
+参数：id,signs,xm_id
+      count:展示数量
+      page:页码
+18、个人中心进行中夺宝记录：/interface.php/mine/onrecords
+参数：id,signs,xm_id
+      count:展示数量
+      page:页码
+19、个人中心已揭晓夺宝记录：/interface.php/mine/finishedrecords
+参数：id,signs,xm_id
+      count:展示数量
+      page:页码
+20、个人中心中奖记录：/interface.php/mine/myluckyrecords
+   参数：id,signs,xm_id
+      count:展示数量
+      page:页码
+21、个人中心晒单记录/interface.php/mine/share
+  参数：id,signs,xm_id
+      count:展示数量
+      page:页码
+22、别人的个人中心参与记录：/interface.php/mine/otherrecords
+参数：user_id:用户ID（别人）
+      count:展示数量
+      page:页数
+23、别人的个人中心中奖记录：/interface.php/mine/otherlucky
+参数：user_id:用户ID（别人）
+      count:展示数量
+      page:页数
+24、别人的晒单记录：/interface.php/mine/othershare
+参数：user_id:用户ID（别人）
+      count:展示数量
+      page:页数
+25、夺宝详情：/interface.php/mine/detail 和finisheddetail 无变化
+参数：user_id:别人
+      Id:自己  signs:  xm_id
+      goods_id：商品ID
+      period:期数
+26、我的：/interface.php/mine/mine
+参数：id signs xm_id
+27、提交晒单：/interface.php/mine/upshare
+参数：id:用户ID
+      xm_id
+      signs:
+      count:几条数据
+      goods_id:商品ID
+      period:期数
+      content:内容
+      title:标题
+	Upimage1….5:表单提交图片字段，按1,2,3，count是几就传几个
+29、修改我的资料：/interface.php/mine/changeuserinfo
+参数：id:用户ID
+      signs:
+xm_id:
+name:修改昵称
+phonenumber：修改电话号码
+img：修改头像
+gender：修改性别
+qq_number：修改qq号码
+yy_number：修改yy号码
+
+30、我的地址：/interface.php/mine/address
+参数：id:用户ID
+      signs:
+      xm_id
+31、添加地址：/interface.php/mine/addaddress
+  参数：id:用户ID
+      signs:
+         xm_id
+         address：地址
+        name：名字
+        phone：电话号码
+        province：省
+32、编辑地址：/interface.php/mine/editaddress
+     参数：id:用户ID
+      signs:
+         xm_id
+         address：地址
+        name：名字
+        phone：电话号码
+        province：省
+        addr_id：第几个地址
+33、删除地址：/interface.php/mine/deladdress
+参数：id:用户ID
+      signs:
+         xm_id
+        addr_id：第几个地址
+34、设置默认地址：/interface.php/mine/setaddress
+参数：id:用户ID
+      signs:
+         xm_id
+        addr_id：第几个地址
+35、qq登录（IOS和安卓）：/interface.php/mine/qqlogin
+参数：openid:qq的唯一openid
+      nickname：昵称
+      gender：性别
+      head_img:头像
+36、微信登录(ios和安卓)：/interface.php/mine/wechatlogin
+参数：openid:微信的唯一openid
+      nickname：昵称
+      gender：性别
+      head_img:头像
+37、领取积分任务：/interface.php/mine/finishtask
+参数：id:用户ID
+      xm_id：登录Id的
+      signs：验证信息
+      headtask：领取头像任务
+pace：领取完善信息任务
+bangqq：领取绑定qq
+bangwechat:绑定微信任务
+38、邀请好友：/interface.php/mine/friendlist
+    参数：id:用户ID
+      xm_id：登录Id的
+      signs：验证信息
+39、设置揭晓推送：/interface.php/mine/setpush
+参数：id:用户ID
+      xm_id：登录Id的
+      signs：验证信息
+        app_push：1,2,0
+40、揭晓推送：/interface.php/mine/push
+参数：id:用户ID
+      xm_id：登录Id的
+      signs：验证信息
+41、充值：/interface.php/mine/recharge1
+ 参数：id:用户ID
+      xm_id：登录Id的
+      signs：验证信息
+money：充值金额
+is_ios:是否ios ,1是ios
+payway:支付方式，1-7数字
+42、获奖商品信息确认收货前：/interface.php/mine/goodsstatus
+参数：id:用户ID
+      xm_id：登录Id的
+      signs：验证信息
+        pr_id:中奖id
+43、确认地址：/interface.php/mine/doaddressnew
+参数：id:用户ID
+      xm_id：登录Id的
+      signs：验证信息
+      pr_id:中奖id
+      number:QQ号码、YY号码、电话号码
+44、用户确认收货后：/interface.php/mine/getgoods
+参数id:用户ID
+      xm_id：登录Id的
+      signs：验证信息
+      pr_id:中奖id
+45、邀请好友：/interface.php/mine/invitefriend  页面
+   参数：user_id：用户ID
+46、邀请好友成功后：/interface.php/mine/invitefrienda  页面
+参数：user_id：用户ID
+      phone:电话号码
+47、是否邀请了好友：/interface.php/mine/isinvite
+   参数：phone:电话号码
+48、兑换夺宝币：/interface.php/mine/chargemoney
+参数id:用户ID
+      xm_id：登录Id的
+      signs：验证信息
+      pr_id:中奖id
+49、分享商品：/interface.php/mine/sharegoodsa  页面
+   参数：goods_id：商品ID
+50、大转盘：/interface.php/mine/disc  页面
+参数id:用户ID
+      xm_id：登录Id的
+      signs：验证信息
+51、大转盘数据请求：/interface.php/mine/disc_num
+    参数：user_id:用户ID
+52、分享增加一次抽奖：/interface.php/mine/adddisc
+  参数id:用户ID
+      xm_id：登录Id的
+      signs：验证信息
+53、领取充值码：/interface.php/mine/recharge_code
+参数id:用户ID
+      xm_id：登录Id的
+      signs：验证信息
+       code:兑换码

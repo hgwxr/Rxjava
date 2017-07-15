@@ -1,0 +1,255 @@
+
+	signs : b2a0016d8b80ed062890dd504520471a
+	参数：count:每页数量
+	fid：分类ID
+	page:分页数，新增加，默认1
+	signs : cff693c21e6749350ec04459522df2c7
+	参数：count:每页数量
+	page:分页数,默认1
+	signs : f526ccee166ef27fc6d36c71f786e7b2
+	参数：count:每页展示数量
+	goods_id:商品ID
+	period:期数
+	page:页数
+	signs : 045c0af2fc358d681362cd89a56f5b84
+	参数：count:每页数量
+	page:页码，默认1
+	signs : 28ca0ebc0a3bb6b2fe45e9f94d31aea1
+	参数：count:每页数量
+	page:页码，默认1
+	signs : 85ad8f19d4906feeae2f20c29d6b2d2e
+	参数：goods_id:商品ID
+	period:期数
+	参数：id: 1002844
+	xmid : d5adc9b78057d1b76ca36b232416bb3a
+	参数：id: 1002844
+	signs : 9c79b6b57875c0bd9779d442a86b56d8
+	参数：goods_id:商品ID
+	period:期数
+	参数：id: 1002844
+	xmid : d5adc9b78057d1b76ca36b232416bb3a
+	参数：id: 1002844
+	signs : 295eb459e7774a0b6bb79f45f58f052a
+	参数：count:展示数量
+	page:页码（可选，默认为1）
+	signs : 1c4baf6ca1a76813292e49cd90a573a8
+	参数：phonenumber：电话
+	password：密码
+	verify：验证码
+	first：是否为注册送红包来的，1是送红包
+	signs : 8496667d6614199c3c37909ca72bfd8f
+	signs : 8496667d6614199c3c37909ca72bfd8f
+	xmid : d5adc9b78057d1b76ca36b232416bb3a
+	参数：id: 1002844
+	goods_id:商品ID（可以是多个商品用,隔开传输）
+	goods_addnum：商品数量（可选，默认为1）
+	signs : 81f31f914a36ccf460b1e3cde81fd78e
+	参数：id: 1002844
+	signs : 81f31f914a36ccf460b1e3cde81fd78e
+	xmid : d5adc9b78057d1b76ca36b232416bb3a
+	goods_data:改变购物车数量的json数据，{商品ID：商品数量}
+	
+	signs : 916591615eb4d2aeb2e34eb3d58e46c2
+	参数：id: 1002844
+	signs : 916591615eb4d2aeb2e34eb3d58e46c2
+	xmid : d5adc9b78057d1b76ca36b232416bb3a
+	signs : d5f0db55a81685894365d7def65986c4
+	参数：id: 1002844
+	signs : d5f0db55a81685894365d7def65986c4
+	xmid : d5adc9b78057d1b76ca36b232416bb3a
+	price:红包价
+	signs : fbcfb89fe8f4d71776d36226635b4cbc
+	参数：id: 1002844
+	xmid : d5adc9b78057d1b76ca36b232416bb3a
+	signs : fbcfb89fe8f4d71776d36226635b4cbc
+	is_wechat:是否微信支付
+	is_balance:是否余额支付
+	user_balance:使用余额
+	pay_money:支付金额
+	red_id:红包ID
+	is_union:是否银联支付
+	is_jdpay:是否京东支付
+	is_iapppay:是否爱贝支付宝支付
+	is_ios:是否是ios端支付
+	is_alipay_new_1:是否2元支付宝支付
+	is_alipay_new_2:是否5元支付宝支付
+	signs : a95c64be760df61f9a54dc410ca7e8b2
+	参数: agent_bill_id:订单号
+	signs : 67d0c09a7660dab13da76dce36b2fea7
+	参数：tn:银联订单号
+	order_num:订单号
+	type:类型，0充值，1购买
+	signs : 3a98e0802a83a852589c9e336f7bf96c
+	signs : 3a98e0802a83a852589c9e336f7bf96c
+	count:展示数量
+	page:页码
+	signs : a3a93d62fa756c4d513f0942dab3331d
+	signs : a3a93d62fa756c4d513f0942dab3331d
+	count:展示数量
+	page:页码
+	signs : 6c14e8d9da413e9f320c5c1e53a958dc
+	signs : 6c14e8d9da413e9f320c5c1e53a958dc
+	count:展示数量
+	page:页码
+	signs : 5c2b1046c2f16bc015f5582801c86130
+	signs : 5c2b1046c2f16bc015f5582801c86130
+	count:展示数量
+	page:页码
+	signs : 55828362df08a86cefae95a25f2f4bfa
+	signs : 55828362df08a86cefae95a25f2f4bfa
+	count:展示数量
+	page:页码
+	signs : 5e7eee64a9ed584543c9ecb574a73194
+	参数：id: 1002844
+	count:展示数量
+	page:页数
+	signs : 0087db134acebc2b0038167c19f0e265
+	参数：id: 1002844
+	count:展示数量
+	page:页数
+	signs : 2ecba39f12fdd3efadcac15fe3cbd129
+	参数：id: 1002844
+	count:展示数量
+	page:页数
+	signs : 47156dda8a4a153e2dfc8920031c6ff1
+	参数：user_id:别人
+	signs : 47156dda8a4a153e2dfc8920031c6ff1
+	goods_id：商品ID
+	period:期数
+	signs : 22597ca6427b672342ad71087fd373ed
+	signs : 22597ca6427b672342ad71087fd373ed
+	signs : faf64bb1033353ee717f2702e0c2fdb8
+	参数：id: 1002844
+	xmid : d5adc9b78057d1b76ca36b232416bb3a
+	signs : faf64bb1033353ee717f2702e0c2fdb8
+	count:几条数据
+	goods_id:商品ID
+	period:期数
+	content:内容
+	title:标题
+	Upimage1….5:表单提交图片字段，按1,2,3，count是几就传几个
+	signs : 4e315aa7949be9d28ff6669eb0799a12
+	参数：id: 1002844
+	signs : 4e315aa7949be9d28ff6669eb0799a12
+	xmid : d5adc9b78057d1b76ca36b232416bb3a
+	name:修改昵称
+	phonenumber：修改电话号码
+	img：修改头像
+	gender：修改性别
+	qq_number：修改qq号码
+	yy_number：修改yy号码
+	
+	signs : d36de8844daf073c8ba4325890339b51
+	参数：id: 1002844
+	signs : d36de8844daf073c8ba4325890339b51
+	xmid : d5adc9b78057d1b76ca36b232416bb3a
+	signs : e918bdfd25c9e90932eaee75e5d63901
+	参数：id: 1002844
+	signs : e918bdfd25c9e90932eaee75e5d63901
+	xmid : d5adc9b78057d1b76ca36b232416bb3a
+	address：地址
+	name：名字
+	phone：电话号码
+	province：省
+	signs : f6f65ad9091b49d19fd5b9c930104383
+	参数：id: 1002844
+	signs : f6f65ad9091b49d19fd5b9c930104383
+	xmid : d5adc9b78057d1b76ca36b232416bb3a
+	address：地址
+	name：名字
+	phone：电话号码
+	province：省
+	addr_id：第几个地址
+	signs : b4a9fa03e610d3dcb253458df2681f71
+	参数：id: 1002844
+	signs : b4a9fa03e610d3dcb253458df2681f71
+	xmid : d5adc9b78057d1b76ca36b232416bb3a
+	addr_id：第几个地址
+	signs : 523c2d39a2034f54eae027227c1ce6f1
+	参数：id: 1002844
+	signs : 523c2d39a2034f54eae027227c1ce6f1
+	xmid : d5adc9b78057d1b76ca36b232416bb3a
+	addr_id：第几个地址
+	signs : b8a2c2d975b89ed67b7e8d1cc3da60fa
+	参数：openid:qq的唯一openid
+	nickname：昵称
+	gender：性别
+	head_img:头像
+	signs : 7de0c9635cb8cb572d29f012be0ad353
+	参数：openid:微信的唯一openid
+	nickname：昵称
+	gender：性别
+	head_img:头像
+	signs : 325a5f75777c6794d1b2dea2ffa7b04a
+	参数：id: 1002844
+	xmid : d5adc9b78057d1b76ca36b232416bb3a
+	signs : 325a5f75777c6794d1b2dea2ffa7b04a
+	headtask：领取头像任务
+	pace：领取完善信息任务
+	bangqq：领取绑定qq
+	bangwechat:绑定微信任务
+	signs : 7ab2ff40399300983c77b40515ac3dab
+	参数：id: 1002844
+	xmid : d5adc9b78057d1b76ca36b232416bb3a
+	signs : 7ab2ff40399300983c77b40515ac3dab
+	signs : 515e07a082abe13ed5bcbe12246a95c4
+	参数：id: 1002844
+	xmid : d5adc9b78057d1b76ca36b232416bb3a
+	signs : 515e07a082abe13ed5bcbe12246a95c4
+	app_push：1,2,0
+	signs : a659010613647915717420d87b2c95c6
+	参数：id: 1002844
+	xmid : d5adc9b78057d1b76ca36b232416bb3a
+	signs : a659010613647915717420d87b2c95c6
+	signs : 0a98800225013474eadbb83c441eb2d4
+	参数：id: 1002844
+	xmid : d5adc9b78057d1b76ca36b232416bb3a
+	signs : 0a98800225013474eadbb83c441eb2d4
+	money：充值金额
+	is_ios:是否ios ,1是ios
+	payway:支付方式，1-7数字
+	signs : 856c3eaed3dd7263a87b6f5dfe77ea5e
+	参数：id: 1002844
+	xmid : d5adc9b78057d1b76ca36b232416bb3a
+	signs : 856c3eaed3dd7263a87b6f5dfe77ea5e
+	pr_id:中奖id
+	signs : 28bb4190b42ea4045506b897837ed340
+	参数：id: 1002844
+	xmid : d5adc9b78057d1b76ca36b232416bb3a
+	signs : 28bb4190b42ea4045506b897837ed340
+	pr_id:中奖id
+	number:QQ号码、YY号码、电话号码
+	signs : d0e8d8e24ba0692714885db960d89238
+	id : 1002844
+	xmid : d5adc9b78057d1b76ca36b232416bb3a
+	signs : d0e8d8e24ba0692714885db960d89238
+	pr_id:中奖id
+	signs : 194d4a474174e809206ac6213f1f873d
+	参数：id: 1002844
+	signs : bedfe1f5eccc110555482885223e6778
+	参数：id: 1002844
+	phone:电话号码
+	signs : 5c9e1da73ad13eb59aa04a4e54b906b5
+	参数：phone:电话号码
+	signs : d84bd61e31a2ff1959f7af9c357e4dbf
+	id : 1002844
+	xmid : d5adc9b78057d1b76ca36b232416bb3a
+	signs : d84bd61e31a2ff1959f7af9c357e4dbf
+	pr_id:中奖id
+	signs : 34929d1ad62541dee5321fc5a45223a8
+	参数：goods_id：商品ID
+	signs : 2599f9bdc9598b85bd3667a7aeaf7023
+	id : 1002844
+	xmid : d5adc9b78057d1b76ca36b232416bb3a
+	signs : 2599f9bdc9598b85bd3667a7aeaf7023
+	signs : 17512de9394b59c0a7b566d7acf189cb
+	参数：id: 1002844
+	signs : 9d2469a232a436d52346388b3c038212
+	id : 1002844
+	xmid : d5adc9b78057d1b76ca36b232416bb3a
+	signs : 9d2469a232a436d52346388b3c038212
+	signs : e516af57ae9e9b6a0f1b244c183a0a5a
+	id : 1002844
+	xmid : d5adc9b78057d1b76ca36b232416bb3a
+	signs : e516af57ae9e9b6a0f1b244c183a0a5a
+	code:兑换码
